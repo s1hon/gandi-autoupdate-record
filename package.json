@@ -1,7 +1,7 @@
 {
   "name": "gandi-autoupdate-record",
   "version": "1.0.0",
-  "description": "",
+  "description": "使用gandi-autoupdate-record之後，你只需建立DNS設定檔，就可以直接幫你更新到Gandi DNS Server，並直接套用至最新版本。",
   "main": "app.js",
   "dependencies": {
     "xmlrpc": "^1.3.1"
@@ -14,5 +14,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "opjlmi",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opjlmi/gandi-autoupdate-record.git"
+  },
+  "bugs": {
+    "url": "https://github.com/opjlmi/gandi-autoupdate-record/issues"
+  },
+  "homepage": "https://github.com/opjlmi/gandi-autoupdate-record#readme"
 }
