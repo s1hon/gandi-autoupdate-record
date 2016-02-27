@@ -1,4 +1,4 @@
-const api = require('./gandiapi.js');
+import api from './gandiapi.js';
 
 api.GetZoneInfo()
 	.then( (info) => api.AddNewZoneVersion(info) )

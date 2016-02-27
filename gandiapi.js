@@ -15,6 +15,7 @@ var newRecord = require("./target_record.txt");
 
 // Gandiapi functions
 var gandiapi = {};
+export default gandiapi = {};
 
 gandiapi.GetZoneInfo = () => new Promise(function(resolve, reject) {
 
@@ -95,6 +96,3 @@ gandiapi.DeleteOldVersionZone = ({id,version}) => new Promise(function(resolve, 
 	})
 
 })
-
-
-module.exports = gandiapi;
