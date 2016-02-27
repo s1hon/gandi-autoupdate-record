@@ -1,0 +1,18 @@
+{
+  "name": "gandi-autoupdate-record",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "xmlrpc": "^1.3.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "opjlmi",
+  "license": "MIT"
+}
