@@ -5,4 +5,4 @@ api.GetZoneInfo()
 	.then( (target) => api.UpdateNewZoneRecord(target) )
 	.then( (target) => api.ChangeTargetVersionZone(target) )
 	.then( (info) => api.DeleteOldVersionZone(info) )
-	.then( () => api.GetZoneInfo() )
+	.then( () => api.GetZoneInfo() );
