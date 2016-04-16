@@ -1,10 +1,10 @@
-# Gandi autoupdate record
+# Gandi Domain autoupdate record
 
-使用gandi-autoupdate-record之後，你只需建立DNS設定檔，就可以直接幫你更新到Gandi DNS Server，並直接套用至最新版本。
+使用gandi-DOMAIN-autoupdate-record之後，你只需建立DNS設定檔，就可以直接幫你更新到Gandi DNS Server，並直接套用至最新版本。
 
 ## 環境設定
 
-本專案使用ES6撰寫，執行前需安裝babel-core與npm相關套件
+本專案使用ES6撰寫，執行前需安裝babel-core, eslint與npm相關套件
 
 ```
     npm install
