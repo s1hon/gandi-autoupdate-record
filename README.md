@@ -8,7 +8,6 @@
 
 ```
     npm install
-    npm install -g babel-core
 ```
 
 ## 建立設定檔
@@ -39,5 +38,5 @@ www 10800 IN CNAME webredir.vip.gandi.net.
 ## 如何執行
 
 ```
-    babel-node app.js
+    node main.js
 ```
