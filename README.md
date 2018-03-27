@@ -1,4 +1,4 @@
-# Gandi Domain autoupdate record
+# ~~Gandi Domain autoupdate record~~ 項目已停止更新
 
 使用gandi-DOMAIN-autoupdate-record之後，你只需建立DNS設定檔，就可以直接幫你更新到Gandi DNS Server，並直接套用至最新版本。
 
